@@ -7,10 +7,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ThreadPool.hpp" />
+    <ClInclude Include="src\ThreadPool.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ThreadPool.cpp">
+    <ClCompile Include="src\ThreadPool.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>

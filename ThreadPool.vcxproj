@@ -145,10 +145,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="ThreadPool.hpp" />
+    <ClInclude Include="src\ThreadPool.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ThreadPool.cpp" />
+    <ClCompile Include="src\ThreadPool.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
