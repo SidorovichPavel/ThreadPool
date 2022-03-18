@@ -31,7 +31,7 @@ auto ThreadPool::enqueue(Fn&& fn, Args&&... args)->
 std::future<decltype(std::forward<Fn>(fn)(std::forward<Args>(args)...))>
 {
 	using ret_t = decltype(std::forward<Fn>(fn)(std::forward<Args>(args)...));
-	std::unique_ptr<int>().release();
+	
 	auto pTask = new std::packaged_task<ret_t()>(
 		std::bind(std::forward<Fn>(fn), std::forward<Args>(args)...));
 
