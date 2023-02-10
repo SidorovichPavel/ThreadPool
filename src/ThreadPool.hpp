@@ -8,7 +8,7 @@
 #include <functional>
 #include <vector>
 
-class ThreadPool
+class ThreadPool final
 {
 public:
 	ThreadPool(int _Count);
